@@ -500,11 +500,13 @@ textarea {
 .ba-footer__cards,
 .ba-footer__social {
 	margin-top: 47px;
+	outline:none;
 }
 .ba-footer .fa {
 	color: #FFF;
 	font-size: 16px;
 	padding-left: 10px;
+	text-decoration: none;
 }
 
 .ba-footer__cards:hover .fa,
