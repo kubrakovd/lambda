@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Yeseva+One|Lato|Gentium+Book+Basic:700);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic:700);
 
 body{
 	font: 400 16px/1.5 'Lato', sans-serif;
@@ -32,7 +33,7 @@ input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
 .ba-button:hover{
-	background-color:  rgba(250, 233, 49, 0.8);
+	background-color:  rgba(39, 38, 40, 0.8);
 	border-color: #000;
 }
 input[type="submit"]:active,
@@ -268,6 +269,7 @@ textarea {
 	background-size: cover;
 	box-shadow:0px 0px 50px 0px rgba(1,1,1, 0.1) inset;
 	padding-top: 105px;
+	padding-bottom: 100px;
 }
 
 .ba-menu-item {
@@ -345,3 +347,179 @@ textarea {
 	float: right;
 	margin-right: 40px;
 }
+
+/* ba-rewiew */
+
+.ba-rewiew {
+	background: url(../img/rewiew-bg.jpg) 50% no-repeat;
+	background-size:cover;
+	color:#FFFFFF;
+	margin-top: -20px;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.ba-rewiew__text {
+	margin: 0 165px 0 235px;
+	padding: 55px 0px 75px 0;
+	margin-top: -55px;
+	font:700 25px/1.8 'Gentium Book Basic', sans-serif;
+	color: #dee0e0;
+	background: rgba(0, 0, 0, .67);
+}
+
+.ba-rewiew__text:hover {
+	background: rgba(0, 0, 0, .77);
+}
+
+.ba-rewiew__maintext {
+	background:url(../img/quote-left.png) 0% 0% no-repeat;
+	padding-left: 30px;
+	margin-top: -10px;
+	margin-left: 25px;
+}
+
+.ba-rewiew__title {
+	margin-top: 20px;
+	font:400 36px 'Yeseva One',sans-serif;
+	background: url(../img/ingr-decor.png) 50% 100% no-repeat;
+	padding-bottom: 40px;
+}
+
+.ba-rewiew_textfooter {
+	margin-top: -5px;
+	font:400 18px/2.5 'Lato', sans-serif;
+	color: #ffffff;
+}
+
+/* ba-contact */
+.ba-contact{
+	background: url(../img/contact-bg.jpg) 50% no-repeat;
+	background-size: cover;
+	padding: 100px 0 95px 75px;
+}
+.ba-contact__text,
+.ba-contact__title {
+	max-width: 430px;
+	text-align: center;
+	color:  #4c4c4c;
+	margin: 0 auto;
+}
+.ba-contact__title {
+	font-family: YesevaOne, serif;
+	color:  #cc9900;
+	font-size: 40px;
+	background: url(../img/about-decor.png) 50% 100% no-repeat;
+	padding-bottom: 45px;
+	line-height: 0.9;
+	margin-left:70px;
+	letter-spacing: 1px;
+
+}
+.ba-contact__text {
+	line-height: 1.65;
+	letter-spacing: 0.7px;
+	max-width: 430px;
+	margin-right: 67px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.ba-form {
+	max-width: 430px;
+	margin: 0 auto;
+	margin-top: -20px;
+	padding: 5px;
+	text-align: center;
+}
+.ba-form label {
+	display: block;
+	font-family: Lato, sans-serif;
+	color:  #c9a131;
+	font-size: 16px;
+	text-align: left;
+}
+.ba-form-field {
+	display: block;
+	margin-top: 7px;
+	padding: 5px 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.ba-form-field:focus {
+
+	border: 1px solid #c9a131;
+}
+.ba-form-field:hover {
+	border: 1px solid #c9a191;
+}
+
+.ba-form-select {
+	color:  #B1A9B1;
+	padding: 7px 15px;
+	margin-top: 9px;
+	font-size: 14px;
+	width: 100%;
+}
+.ba-button--form {
+	display: inline-block;
+	min-height: 35px;
+	line-height: 35px;
+	background: #c89f2d;
+	margin-top: 5px;
+	margin-left: 0;
+	padding: 0 55px;
+}
+
+/* footer */
+.ba-footer {
+	background-color: #191919;
+	background-size:cover;
+	font-size: 14px;
+	padding: 35px 0 70px;
+	text-align: center;
+	color:#E0E0E0;
+	padding-left: 70px;
+	font-weight: 400;
+}
+.ba-footer__title {
+	font-family: 'Yeseva One', serif;
+	color:  #fefefe;
+	font-size: 21px;
+	background: url(../img/ingr-decor.png) 50% 100% no-repeat;
+	padding-bottom: 25px;
+}
+.ba-footer p {
+	line-height: 1.5;
+	font-size: 17px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.ba-footer__cards,
+.ba-footer__social {
+	margin-top: 47px;
+}
+.ba-footer .fa {
+	color: #FFF;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.ba-footer__cards:hover .fa,
+.ba-footer__social:hover .fa{
+	opacity:.5;
+}
+
+.ba-footer__cards .fa:hover{
+	opacity:1;
+	color:yellow;
+}
+
+
+.ba-footer__social .fa:hover{
+	opacity:1;
+	color:blue;
+}
+
