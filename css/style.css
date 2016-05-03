@@ -379,7 +379,7 @@ textarea {
 	url(../img/list-bg.jpg) 50% no-repeat;
 	background-size: cover;
 	box-shadow:0px 0px 50px 0px rgba(1,1,1, 0.1) inset;
-	padding-top: 105px;
+	padding-top: 70px;
 	padding-bottom: 75px;
 }
 
@@ -392,11 +392,16 @@ textarea {
 .ba-list-item__title {
 	font:400 36px/1 'Yeseva One',sans-serif;
 	background: url(../img/about-decor.png) 50% 100% no-repeat;
-	margin: 0;
+	margin-top: 40px;
 	margin-left: 70px;
 	margin-bottom: 20px;
 	color: #cc9900;
 	padding-bottom: 40px;
+
+}
+
+.ba-list-item__title:nth-child(2) {
+
 }
 
 .ba-list-item__list {
@@ -474,7 +479,7 @@ textarea {
 	background-size:cover;
 	color:#FFFFFF;
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 110px;
 	text-align: center;
 }
 
